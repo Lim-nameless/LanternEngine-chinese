@@ -1,0 +1,57 @@
+{
+ "_说明": "第四批补充：以换行开头、或属于拼接片段的字面量。键必须与原文逐字一致（含开头的 \\n 与空格），否则不会被识别。",
+
+ "These old files could not be removed (in use?) and can be deleted by hand:\n\n": "这些旧文件无法删除（可能被占用），可以手动删除：\n\n",
+ "\n\nLogged to:\n": "\n\n日志输出到：\n",
+ "\n\nYour settings already suit this PC.": "\n\n当前设置已经适合这台电脑。",
+ "\n\nYou can change any of them later.": "\n\n之后随时都能改。",
+ ".\n\nSafe mode starts the next run with the experimental engine options and mods off. Copy report puts the details and the end of the log on the clipboard, for a bug report.":
+   ".\n\n安全模式会让下次启动关闭实验性引擎选项与模组。复制报告会把详细信息和日志末尾放到剪贴板，用于提交缺陷报告。",
+ "\nDetected. Wireless pads show here while only the receiver is plugged in: press any button to check the pad is on.":
+   "\n已检测到。只插接收器时无线手柄也会显示在这里：按任意键可检查手柄是否已开启。",
+ "\nResponding: ready to play. The game uses the pad you press.":
+   "\n有响应：可以开玩。游戏会使用你按下的那个手柄。",
+ "\nIn use by the game.": "\n游戏正在使用。",
+ " actions:\n": " 操作:\n",
+ "Notes:\n  ": "说明:\n  ",
+ " — no mods": " — 无模组",
+ " — no patches": " — 无补丁",
+ " · by ": " · 作者 ",
+ "That is a PS4 save as the console copies it to USB: it is encrypted with that PS4's own keys, which only the console has, so no PC program can open it.\n\nExport it decrypted instead: on a jailbroken PS4 with Apollo Save Tool (Copy save game → decrypted, to USB), or with Save Wizard for PS4. Then import that folder here.":
+   "这是 PS4 主机复制到 U 盘的那种存档：它用该主机专属的密钥加密，只有主机本身有这把钥匙，所以任何 PC 程序都打不开。\n\n请改为导出已解密的存档：在已破解的 PS4 上用 Apollo Save Tool（Copy save game → decrypted，导出到 U 盘），或用 Save Wizard for PS4。然后把那个文件夹导入到这里。",
+ "\n\nThis profile's current saves are backed up first: Save backups › Restore… brings them back.":
+   "\n\n会先备份这个配置当前的存档：存档备份 › 还原… 可以把它们找回来。",
+ "Copy the saves from\n": "把存档从下面这个位置复制出来\n",
+ "\ninto ": "\n到 ",
+ "\nThe engine that runs your game: out\\bb-probe.exe, its scripts and Python. Your game files stay where they are":
+   "\n运行你游戏用的引擎：out\\bb-probe.exe、它的脚本和 Python。你的游戏文件不会被动。",
+ "\n…and ": "\n…以及 ",
+ " · built ": " · 构建 ",
+ " GB right now: the game would not start (Windows error 1450).\n\n":
+   " GB，游戏会无法启动（Windows 错误 1450）。\n\n",
+ ". Windows can run out during play, and the game then crashes.\n\n":
+   ". Windows 会在游玩途中耗尽，游戏随后崩溃。\n\n",
+ " · turn on Frame statistics (Settings) for FPS and stutters":
+   " · 想看到帧率和卡顿，请在「设置」里打开帧统计",
+ " · RAM ": " · 内存 ",
+ "\n\nAn antivirus is most likely holding or removing ":
+   "\n\n很可能是杀毒软件正在占用或删除 ",
+ "\n\nThis is an older version: settings it doesn't know are kept but not used, and the launcher may offer the newest version again at start.":
+   "\n\n这是较旧的版本：它不认识的设置会被保留但不生效，启动器可能会在下次启动时再次提示更新到最新版。",
+ "Windows or an antivirus would not let these through, so the old ones were kept:\n":
+   "Windows 或杀毒软件不让这些文件通过，所以保留了旧版本:\n",
+ "\n\nThe game runs without them; online play may need them. Allow the Bloodborne PC folder in the antivirus and update again, or take them from ":
+   "\n\n没有它们游戏也能运行；联机可能需要。请在杀毒软件里放行 Bloodborne PC 文件夹后再更新一次，或从这里手动获取 ",
+ "\n\nYou can download it by hand from ": "\n\n你可以从这里手动下载 ",
+ "Connect your Hunter's Dream account on the Online page first (with Discord, or without it).\n\nOr turn \"Play online\" off to play offline.":
+   "请先在联机页面连接你的 Hunter's Dream 账号（可以用 Discord，也可以不用）。\n\n或者关掉「在线游玩」来离线游玩。",
+ " moves the game to a region that has no Bloodborne server, so Play online fails with \"Failure to acquire information from the Bloodborne server\".\n\nLeave it out for this session? It stays on for offline play.":
+   " 会把游戏切到一个没有 Bloodborne 服务器的区域，导致在线游玩报错「无法从 Bloodborne 服务器获取信息」。\n\n这次先跳过？它只在离线游玩时仍然生效。",
+ "the render resolution (the upscaler runs as DLAA / native AA).\n\n":
+   "渲染分辨率（此时超分等效于 DLAA／原生抗锯齿）。\n\n",
+ " sets its own on top: the picture keeps the patch's shape, with black bars.\n\nLeave it out? It still applies with a 1920 × 1080 output. \"Always on\" keeps it and does not ask again until the resolution patches switched on in Mods change.":
+   " 又叠加了它自己的一套：画面保持该补丁的形状，并带黑边。\n\n这次先跳过？在 1920 × 1080 输出下它依然生效。「始终开启」会保留它，之后不再询问，直到「模组」里开启的分辨率补丁发生变化。",
+ ".\n\nRecovery code (copied to the clipboard):\n\n":
+   ".\n\n恢复码（已复制到剪贴板）：\n\n",
+ "— the game exited (code ": "— 游戏已退出（代码 "
+}

@@ -1,0 +1,32 @@
+{
+ "_说明": "第五批补充：HDR 亮度档位、文件校验提示等零散文案。",
+
+ "100 nits": "100 尼特",
+ "150 nits": "150 尼特",
+ "200 nits (default)": "200 尼特（默认）",
+ "250 nits": "250 尼特",
+ "300 nits": "300 尼特",
+ "400 nits": "400 尼特",
+ "600 nits": "600 尼特",
+ "800 nits": "800 尼特",
+ "1000 nits (default)": "1000 尼特（默认）",
+ "1500 nits": "1500 尼特",
+ "2000 nits": "2000 尼特",
+ "4000 nits": "4000 尼特",
+
+ "Options / Start": "Options / 开始",
+
+ "0' nits'": "0' 尼特'",
+
+ "DLSS (NVIDIA RTX)": "DLSS（NVIDIA RTX）",
+ "Bloodborne PC engine": "Bloodborne PC 引擎",
+ "DualShock 4 (wireless adapter)": "DualShock 4（无线适配器）",
+
+ "gxshader.shaderbnd.dcx) -> not found": "gxshader.shaderbnd.dcx) -> 未找到",
+ "systex.tpf.dcx) -> not found": "systex.tpf.dcx) -> 未找到",
+
+ " is included (out\\nvngx_dlss.dll). Choose it as the upscaler above":
+   " 已包含（out\\nvngx_dlss.dll）。请在上方选用它作为超分方式",
+
+ " without an account reply": " 不用账号继续"
+}

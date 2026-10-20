@@ -1,0 +1,22 @@
+{
+  "_comment": "第三轮补充：修正提取规则后新发现的字符串（含 .exe/下划线/全大写的整句与标签）。",
+  "COMPLETION": "完成度",
+  " is included (out\nvngx_dlss.dll). Choose it as the upscaler above": " 已包含（out\nvngx_dlss.dll）。请在上方把它选为超分辨率",
+  " lines of logs\\last_session.log (repeats folded):": " 行，来自 logs\\last_session.log（已折叠重复项）：",
+  "BB_SAMPLE_THREADS: where the game's main, render and file threads spend their time, every 5 seconds. For slow loading; costs a little speed": "BB_SAMPLE_THREADS：游戏主线程、渲染线程与文件线程的时间分布，每 5 秒一次。用于排查加载慢；会略微损失速度",
+  "BB_SECTIONS: where each frame's CPU time goes (with frame statistics). It costs FPS, so it applies to the next game only": "BB_SECTIONS：每一帧的 CPU 时间去向（配合帧统计）。会损失帧率，因此仅对下一次游戏生效",
+  "Engine folder (with run.py and bin\\bb-probe.exe)": "引擎文件夹（含 run.py 与 bin\\bb-probe.exe）",
+  "Extract each mod into its own folder (with dvdroot_ps4, or straight chr/, parts/ and so on). Applied when the game starts.": "把每个模组解压到各自的文件夹（内含 dvdroot_ps4，或直接是 chr/、parts/ 等）。在游戏启动时应用。",
+  "Its bb-probe.exe accepts unlocks silently, so nothing can be tracked. A build with trophy hooks (for example the Windows release of github.com/pyL1nx/bloodborne_pc) writes trophies.log, and the launcher picks it up from there.": "它的 bb-probe.exe 会静默接受解锁，因此无法追踪。带奖杯钩子的构建（例如 github.com/pyL1nx/bloodborne_pc 的 Windows 版）会写出 trophies.log，启动器再从那里读取。",
+  "Left touchpad / Tab. Needs the adhoc folder from Nexus mod #253 (adhoc/font) in the game's dvdroot_ps4 or as a mod; without it the patch is not applied": "左触摸板 / Tab。需要把 Nexus 模组 #253 的 adhoc 文件夹（adhoc/font）放进游戏的 dvdroot_ps4 或作为模组；否则该补丁不会生效",
+  "Not found. It is normally the folder this launcher is in (with bin\\bb-probe.exe and run.py)": "未找到。通常就是本启动器所在的文件夹（含 bin\\bb-probe.exe 与 run.py）",
+  "Prepares mods and patches, then starts the engine (out\\bb-probe.exe)": "准备模组与补丁，然后启动引擎（out\\bb-probe.exe）",
+  "That folder has no run.py with Bloodborne.exe or bin\\bb-probe.exe.": "该文件夹里没有含 Bloodborne.exe 的 run.py，也没有 bin\\bb-probe.exe。",
+  "The game's own files are missing (dvdroot_ps4\\shader, dvdroot_ps4\\other): the game folder is incomplete. Turn Mods off and start again; if it still crashes, dump or extract the game again (base game plus the 1.09 update).": "游戏自身文件缺失（dvdroot_ps4\\shader、dvdroot_ps4\\other）：游戏文件夹不完整。请关闭「模组」再启动一次；若仍然崩溃，请重新 dump 或解压游戏（本体＋1.09 更新）。",
+  "The launcher needs the Bloodborne PC engine (the folder with run.py and bin\\bb-probe.exe). It is normally the folder the launcher came in.": "启动器需要 Bloodborne PC 引擎（含 run.py 与 bin\\bb-probe.exe 的文件夹）。通常就是启动器所在的文件夹。",
+  "Use letters, numbers, spaces, - or _ only.": "只能使用字母、数字、空格、- 或 _。",
+  "Your online name (letters, digits, - and _)": "你的联机名称（字母、数字、- 与 _）",
+  "fsr4_shaders is missing from the port folder: the game falls back to FSR 3.1": "端口程序文件夹中缺少 fsr4_shaders：游戏会回退到 FSR 3.1",
+  "out\\nvngx_dlss.dll is missing from the engine folder": "引擎文件夹中缺少 out\\nvngx_dlss.dll",
+  "sce_sys/param.sfo is missing or unreadable; the game may not start": "sce_sys/param.sfo 缺失或无法读取；游戏可能无法启动"
+}
